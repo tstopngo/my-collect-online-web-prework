@@ -3,7 +3,6 @@ def my_collect(collection)
   updated_collection = []
   while i < collection.length
   yield (collection[i])
-  updated_collection.push(collection)
   i+= 1
   end
   updated_collection
