@@ -1,10 +1,11 @@
 def my_collect(collection)
   i = 0
-  updated_item = []
+  updated_collection = []
   while i < collection.length
   yield (collection[i])
-  updated_items = []
+  updated_collection.push(collection[i])
   i+= 1
   end
+  updated_collection
 end
 
