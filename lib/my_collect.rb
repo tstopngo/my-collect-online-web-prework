@@ -5,6 +5,6 @@ def my_collect(collection)
   yield (collection[i])
   i+= 1
   end
-  updated_collection
+  collection
 end
 
